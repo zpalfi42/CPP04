@@ -13,6 +13,7 @@ public:
 
 	~Brain();
 
+private:
 	std::string	ideas[100];
 };
 
