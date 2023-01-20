@@ -27,10 +27,13 @@ int	main( void )
 	me->equip(tmp);
 	tmp = src->createMateria("ice");
 	me->equip(tmp);
+	delete(tmp);
 	tmp = src->createMateria("ice");
 	me->equip(tmp);
+	delete(tmp);
 	tmp = src->createMateria("ice");
 	me->equip(tmp);
+	delete(tmp);
 
 	me->use(0, *bob);
 	me->use(1, *bob);
